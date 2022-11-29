@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class recurtion {
+
+
+     static int fac(int n){
+if (n==1) 
+  return 1;  
+else 
+return n*fac(n-1);
+    }
+
+public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+
+int num;
+
+System.out.print("enter factorial number :");
+
+  num = input.nextInt();
+int result =fac(num);
+
+System.out.println("factorial number " + result);
+    
+}
+
+
+
+
+    
+}
